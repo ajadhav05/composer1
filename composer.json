@@ -1,17 +1,22 @@
 {
-   "name": "ajadhav05/composer1",
-   "description": "This package is to test.",
-   "type": "library",
-   "require": {
-       "php": ">=7.0.0"      
-   },
-   "authors": [
-       {
-           "name": "abhijit jadhav",
-           "email": "ajadhav05@gmail.com"
-       }
-   ],
-   "autoload": {
-       "psr-4": {"ajadhav05\\": "*"}
-   }
+    "name": "firstproject/hello-composer",
+    "description": "My first packagist package",
+    "type": "library",
+	"require": {
+        "php": ">=5.3.0"
+    },
+    "authors": [
+        {
+            "name": "abhijit",
+            "email": "abhi.jadhav5496@gmail.com"
+        }
+    ],
+	"minimum-stability": "dev",
+	"autoload": {
+        "psr-4": {
+            "firstproject\\HelloComposer\\": "src/"
+        }
+    }
+    "require": {}
 }
+
