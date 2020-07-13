@@ -1,5 +1,5 @@
 {
-    "name": "ajadhav05/composer",
+    "name": "ajadhav05/composer1",
     "description": "My first packagist package",
     "type": "library",
 	"require": {
@@ -18,5 +18,5 @@
             "firstproject\\HelloComposer\\": "src/"
         }
     },
-    "require": {"ajadhav/composer": "*"}
+    "require": {"ajadhav05/composer1": "*"}
 }
