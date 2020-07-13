@@ -1,0 +1,17 @@
+{
+   "name": "ajadhav05/composer1",
+   "description": "This package is to test.",
+   "type": "library",
+   "require": {
+       "php": ">=7.0.0"      
+   },
+   "authors": [
+       {
+           "name": "abhijit jadhav",
+           "email": "ajadhav05@gmail.com"
+       }
+   ],
+   "autoload": {
+       "psr-4": {"ajadhav05\\": "*"}
+   }
+}
