@@ -1,9 +1,10 @@
 {
-    "name": "firstproject/hello-composer",
+    "name": "ajadhav05/composer",
     "description": "My first packagist package",
     "type": "library",
 	"require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "ajadhav05/composer1": "dev-master"
     },
     "authors": [
         {
@@ -17,5 +18,5 @@
             "firstproject\\HelloComposer\\": "src/"
         }
     },
-    "require": {}
+    "require": {"ajadhav/composer": "*"}
 }
